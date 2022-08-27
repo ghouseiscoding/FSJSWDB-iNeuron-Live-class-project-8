@@ -158,7 +158,7 @@ nav img {
     background-image: url("/images/backcover.svg");
     background-size: 400px;
     background-repeat: no-repeat;
-    top: 20px;
+    padding: 0 0 50px;
   }
 
   .vector-img {
