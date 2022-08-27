@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+body{
+  max-width: 1280px;
+  margin: auto;
+  height: 100vh;
+  
+}
+
+.main-div{
+  background-image: url("/images/backcover.svg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-position-x: right;
+  background-size: 820px 850px;
+  top: 0px;
+  z-index: -100px;
+  overflow-y: auto;
+  padding: 0 50px;
+}
+
+/* ############# NAV Section ################# */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0 20px;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  color: #3E4794;
+}
+
+nav img {
+  width: 100px;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-item {
+  margin: 0 15px;
+  font-size: 15px;
+}
+
+.signin-btn {
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: none;
+  background-image: linear-gradient(
+    85deg,
+    hsl(263deg 85% 65%) 0%,
+    hsl(283deg 75% 66%) 40%,
+    hsl(302deg 69% 68%) 67%,
+    hsl(318deg 100% 77%) 100%
+  );
+  color: #fff;
+}
+
+
+
+/* ######### Intro Section ############ */
+
+.intro-section{
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  justify-content: space-between;
+}
+
+.left-section h1{
+  margin: 100px 0 50px;
+  color: #3E4794;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.left-section h4{
+  margin: 50px 0;
+  color: #3E4794;
+  font-weight: 400;
+  font-size: 12px;
+  width: 400px;
+  line-height: 25px;
+}
+
+.learn-more-btn{
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: none;
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  background-image: linear-gradient(
+    85deg,
+    hsl(263deg 85% 65%) 0%,
+    hsl(283deg 75% 66%) 40%,
+    hsl(302deg 69% 68%) 67%,
+    hsl(318deg 100% 77%) 100%
+  );
+}
+
+
+.imgs-div{
+  
+}
+
+.vector-img{
+  position: absolute;
+  top: 650px;
+}
+
+.vector-dot{
+  position: absolute;
+  top: 650px;
+  left: 33rem;
+}
+
+.intro-img{
+  
+}
+
+
+
+
+/* ######### Media Queries ########### */
+
+@media screen and (max-width: 380px ) {
+  
+  body{
+    background-color: #000;
+  }
+}
